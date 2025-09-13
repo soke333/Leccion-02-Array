@@ -1,0 +1,5 @@
+const objetosMagicos = [20, 60, 45, 80, 90, 30];
+
+const objetosValidos = objetosMagicos.filter(objeto => objeto > 50);
+
+console.log(objetosValidos); // [60, 80, 90]
