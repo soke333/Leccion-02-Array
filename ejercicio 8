@@ -1,0 +1,5 @@
+const hechizos = [60, 80, 110, 95, 85];
+
+const hayHechizoPoderoso = hechizos.some(hechizo => hechizo > 100);
+
+console.log(hayHechizoPoderoso); // verdad bro
